@@ -1,0 +1,272 @@
+[
+  {
+    "id": "fb-001",
+    "event": "ml_retrain_05",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-05-01",
+      "date_to": "2026-05-02"
+    },
+    "response": "investigating",
+    "author": "Daniel Okafor",
+    "note": "whoa ~2.2k on ml-platform EC2 overnight?? 8 p4d boxes spun up. @priya is this you?",
+    "submitted_at": "2026-05-01T09:12:00Z"
+  },
+  {
+    "id": "fb-002",
+    "event": "ml_retrain_05",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-05-01",
+      "date_to": "2026-05-02"
+    },
+    "response": "expected",
+    "author": "Priya Raman",
+    "note": "yep that's the monthly eta-model retrain, kicks off on the 1st on 8x p4d.24xlarge and tears down itself. ~2k is normal for us, same as April. pls don't page ml-research for this lol",
+    "submitted_at": "2026-05-01T10:40:00Z"
+  },
+  {
+    "id": "fb-003",
+    "event": "ml_retrain_06",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-06-01",
+      "date_to": "2026-06-02"
+    },
+    "response": "expected",
+    "author": "Priya Raman",
+    "note": "june retrain, all good. model promoted this morning",
+    "submitted_at": "2026-06-01T11:05:00Z"
+  },
+  {
+    "id": "fb-004",
+    "event": "ml_retrain_07",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-07-01",
+      "date_to": "2026-07-02"
+    },
+    "response": "expected",
+    "author": "Sneha Iyer",
+    "note": "yup monthly retrain ✅",
+    "submitted_at": "2026-07-01T08:30:00Z"
+  },
+  {
+    "id": "fb-005",
+    "event": "ml_retrain_08",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-08-01",
+      "date_to": "2026-08-02"
+    },
+    "response": "expected",
+    "author": "Sneha Iyer",
+    "note": "retrain, ~2.4k, in line",
+    "submitted_at": "2026-08-01T07:55:00Z"
+  },
+  {
+    "id": "fb-006",
+    "event": "ml_retrain_09",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-09-01",
+      "date_to": "2026-09-02"
+    },
+    "response": "expected",
+    "author": "Ananya Das",
+    "note": "expected-ish. we added 18 months of GPS history to the training set (deploy #487 on 28 Aug) so the run took ~20h instead of ~9h. new normal is prob ~5k/month, I'll raise the budget with Daniel",
+    "submitted_at": "2026-09-01T12:20:00Z"
+  },
+  {
+    "id": "fb-007",
+    "event": "quarter_end_06_AmazonAthena",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonAthena",
+      "team_tag": "data-eng",
+      "date_from": "2026-06-29",
+      "date_to": "2026-06-30"
+    },
+    "response": "expected",
+    "author": "Meera Pillai",
+    "note": "quarter-end finance reporting. the QE job scans the full shipments table in athena, happens every quarter (march was about the same). nothing to do here",
+    "submitted_at": "2026-06-30T13:15:00Z"
+  },
+  {
+    "id": "fb-008",
+    "event": "quarter_end_06_AmazonRedshift",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonRedshift",
+      "team_tag": "data-eng",
+      "date_from": "2026-06-30",
+      "date_to": "2026-07-01"
+    },
+    "response": "expected",
+    "author": "Mateo Rossi",
+    "note": "same QE thing, finance dashboards hammer redshift and concurrency scaling kicks in. goes away by the 2nd",
+    "submitted_at": "2026-06-30T15:02:00Z"
+  },
+  {
+    "id": "fb-009",
+    "event": "quarter_end_09_AmazonAthena",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonAthena",
+      "team_tag": "data-eng",
+      "date_from": "2026-09-29",
+      "date_to": "2026-09-30"
+    },
+    "response": "expected",
+    "author": "Meera Pillai",
+    "note": "Q3 close, same as June",
+    "submitted_at": "2026-09-30T10:10:00Z"
+  },
+  {
+    "id": "fb-010",
+    "event": "quarter_end_09_AmazonRedshift",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonRedshift",
+      "team_tag": "data-eng",
+      "date_from": "2026-09-30",
+      "date_to": "2026-10-01"
+    },
+    "response": "expected",
+    "author": "Mateo Rossi",
+    "note": "QE concurrency scaling again, expected",
+    "submitted_at": "2026-09-30T10:25:00Z"
+  },
+  {
+    "id": "fb-011",
+    "event": "load_test_monsoon_sale",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonEC2",
+      "team_tag": "checkout",
+      "date_from": "2026-07-14",
+      "date_to": "2026-07-15"
+    },
+    "response": "waste",
+    "author": "Liam O'Brien",
+    "note": "who spun up 60 c6i.4xlarge in prod?? marking waste until someone claims it",
+    "submitted_at": "2026-07-14T12:30:00Z"
+  },
+  {
+    "id": "fb-012",
+    "event": "load_test_monsoon_sale",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonEC2",
+      "team_tag": "checkout",
+      "date_from": "2026-07-14",
+      "date_to": "2026-07-15"
+    },
+    "response": "expected",
+    "author": "Karthik Subramanian",
+    "note": "that's us — planned k6 load test for the Monsoon Mega Sale (CAB-2291, deploy #399). auto-teardown at 20:00 UTC, one-off. not waste",
+    "submitted_at": "2026-07-14T13:05:00Z"
+  },
+  {
+    "id": "fb-013",
+    "event": "staging_weekend_perf_env",
+    "match": {
+      "account": "acme-staging",
+      "service": "AmazonEC2",
+      "team_tag": "checkout",
+      "date_from": "2026-08-07",
+      "date_to": "2026-08-10"
+    },
+    "response": "waste",
+    "author": "Rohan Gupta",
+    "note": "my bad 🙈 spun up the cart-v3 perf env friday evening (deploy #449) and forgot to tear it down. killed it monday 10am IST. ~$700 down the drain",
+    "submitted_at": "2026-08-10T05:20:00Z"
+  },
+  {
+    "id": "fb-014",
+    "event": "staging_weekend_perf_env",
+    "match": {
+      "account": "acme-staging",
+      "service": "AmazonEC2",
+      "team_tag": "checkout",
+      "date_from": "2026-08-07",
+      "date_to": "2026-08-10"
+    },
+    "response": "waste",
+    "author": "Daniel Okafor",
+    "note": "adding a ttl tag + nightly reaper for staging so perf envs can't outlive the weekend",
+    "submitted_at": "2026-08-10T07:45:00Z"
+  },
+  {
+    "id": "fb-015",
+    "event": "image_service_egress_bug",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonS3",
+      "team_tag": "media",
+      "date_from": "2026-07-22",
+      "date_to": "2026-07-25"
+    },
+    "response": "investigating",
+    "author": "Fatima Sheikh",
+    "note": "S3 egress on acme-prod-media-assets is ~15x since wed afternoon and cloudfront bytes dropped at the same time. smells like the image-service deploy. @arjun can you look",
+    "submitted_at": "2026-07-23T06:10:00Z"
+  },
+  {
+    "id": "fb-016",
+    "event": "image_service_egress_bug",
+    "match": {
+      "account": "acme-prod",
+      "service": "AmazonS3",
+      "team_tag": "media",
+      "date_from": "2026-07-22",
+      "date_to": "2026-07-25"
+    },
+    "response": "waste",
+    "author": "Arjun Mehta",
+    "note": "yeah it's my presigned URL change (#421) — thumbnails were going straight from S3 and skipping CloudFront. rolled back in #422 on sat morning. real bug, ~$3.5k. sorry folks",
+    "submitted_at": "2026-07-25T07:30:00Z"
+  },
+  {
+    "id": "fb-017",
+    "event": "forgotten_gpu_instance",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-09-17",
+      "date_to": "2026-09-30"
+    },
+    "response": "investigating",
+    "author": "Priya Raman",
+    "note": "not the retrain, that's on the 1st. no idea whose p3.8xlarge this is, it has no Name tag",
+    "submitted_at": "2026-09-18T09:00:00Z"
+  },
+  {
+    "id": "fb-018",
+    "event": "forgotten_gpu_instance",
+    "match": {
+      "account": "acme-ml-platform",
+      "service": "AmazonEC2",
+      "team_tag": "ml-research",
+      "date_from": "2026-09-17",
+      "date_to": "2026-09-30"
+    },
+    "response": "waste",
+    "author": "Vikram Nair",
+    "note": "ugh that's mine, route-embedding experiment from the 17th, thought I terminated it 🤦 killing it now + deleting the io2 volume and snapshots",
+    "submitted_at": "2026-09-30T05:30:00Z"
+  }
+]

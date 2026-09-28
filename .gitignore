@@ -1,0 +1,21 @@
+# Secrets: API keys live here. Never commit.
+.env
+.env.*
+.ENV
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Runtime data (SQLite state, user uploads, per-workspace data). The generated demo CSVs are committed.
+data/*.db
+data/uploads/
+data/workspaces/

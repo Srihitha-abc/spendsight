@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      DATA_DIR: /app/data
+      DATABASE_PATH: /app/data/spendsight.db
+    volumes:
+      - ./data:/app/data
+      - ./scripts:/app/scripts
+    ports: ["8000:8000"]
+
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm install && npx vite --host 0.0.0.0 --port 5173"
+    environment:
+      VITE_API_URL: http://backend:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports: ["5173:5173"]
+    depends_on: [backend]

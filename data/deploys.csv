@@ -1,0 +1,355 @@
+date,time_utc,service,team,deploy_id,author,summary
+2026-04-01,04:38,image-service,media,201,Yuki Tanaka,v1.3.1: Tune thumbnail cache headers
+2026-04-01,07:21,route-recalc-lambda,routing,202,Chen Wei,v1.28.1: Skip recalcs for delivered shipments
+2026-04-01,08:33,route-optimizer,routing,203,Chen Wei,v1.23.0: OR-tools 9.10 upgrade
+2026-04-01,10:31,checkout-api,checkout,204,Liam O'Brien,v1.23.0: Retry UPI callbacks with jittered backoff
+2026-04-01,13:33,route-optimizer,routing,205,Vikram Nair,v1.22.1: OR-tools 9.10 upgrade
+2026-04-02,04:30,eta-model,ml-research,206,Priya Raman,v1.10.3: Promote retrained eta-model 2026.04 (monthly retrain on 1st)
+2026-04-03,04:41,route-recalc-lambda,routing,207,Chen Wei,v1.28.3: Bump memory to 1024MB
+2026-04-03,09:32,image-service,media,208,Arjun Mehta,v1.4.0: Add AVIF variants for product shots
+2026-04-03,12:55,route-recalc-lambda,routing,209,Chen Wei,v1.28.2: Batch traffic API calls
+2026-04-07,05:10,tracking-ingest,tracking,210,Emma Schultz,v1.31.2: Increase DynamoDB write batch size
+2026-04-07,05:28,platform-infra,platform,211,Noah Fischer,v1.14.1: Enable gp3 for new EBS volumes
+2026-04-07,09:37,route-optimizer,routing,212,Vikram Nair,v1.23.1: Respect driver break windows in VRP solver
+2026-04-07,09:53,tracking-ingest,tracking,213,Emma Schultz,v1.31.1: Parse new courier partner webhook format
+2026-04-07,13:23,feature-pipeline,ml-research,214,Ananya Das,v1.4.1: Add warehouse dwell-time features
+2026-04-09,09:55,cart-service,checkout,215,Sofia Martínez,v1.25.1: Cache promo eligibility for 60s
+2026-04-10,04:08,image-service,media,216,Yuki Tanaka,v1.4.1: Fix EXIF orientation on POD photos
+2026-04-10,13:03,route-recalc-lambda,routing,217,Chen Wei,v1.28.4: Batch traffic API calls
+2026-04-13,06:10,cart-service,checkout,218,Sofia Martínez,v1.25.2: Cache promo eligibility for 60s
+2026-04-13,06:11,image-service,media,219,Yuki Tanaka,v1.4.2: Fix EXIF orientation on POD photos
+2026-04-13,07:03,observability,sre,220,Fatima Sheikh,v1.20.1: Drop debug logs from tracking-ingest
+2026-04-13,12:54,feature-pipeline,ml-research,221,Ananya Das,v1.4.2: Backfill weather features
+2026-04-13,14:06,route-recalc-lambda,routing,222,Chen Wei,v1.28.5: Batch traffic API calls
+2026-04-14,07:42,tracking-ingest,tracking,223,Emma Schultz,v1.31.3: Add Kafka consumer lag metric
+2026-04-14,08:43,checkout-api,checkout,224,Sofia Martínez,v1.23.1: Retry UPI callbacks with jittered backoff
+2026-04-14,11:14,platform-infra,platform,225,Noah Fischer,v1.14.2: EKS 1.30 node AMI rollout
+2026-04-15,06:37,eta-model,ml-research,226,Sneha Iyer,v1.8.1: Shadow-deploy eta-model v3
+2026-04-15,09:56,route-optimizer,routing,227,Vikram Nair,v1.23.2: Add Pune and Kochi depots
+2026-04-16,08:18,eta-model,ml-research,228,Priya Raman,v1.8.2: Add holiday calendar features
+2026-04-16,13:31,feature-pipeline,ml-research,229,Ananya Das,v1.4.3: Add warehouse dwell-time features
+2026-04-17,08:59,cart-service,checkout,230,Rohan Gupta,"v1.25.3: Upgrade redis-py, tune pool size"
+2026-04-20,06:12,route-optimizer,routing,231,Vikram Nair,v1.23.3: Respect driver break windows in VRP solver
+2026-04-20,08:54,checkout-api,checkout,232,Rohan Gupta,v1.23.2: Add idempotency keys to POST /orders
+2026-04-20,12:19,tracking-ingest,tracking,233,Aditya Kulkarni,v1.31.4: Parse new courier partner webhook format
+2026-04-20,14:41,checkout-api,checkout,234,Liam O'Brien,v1.23.3: Bump stripe-python to 12.4
+2026-04-21,09:43,observability,sre,235,Fatima Sheikh,v1.20.2: Add SLO burn-rate alerts
+2026-04-22,06:02,datalake-etl,data-eng,236,Meera Pillai,v1.34.1: Compact small parquet files nightly
+2026-04-22,09:53,checkout-api,checkout,237,Rohan Gupta,v1.23.4: Add GST breakdown to invoice payload
+2026-04-22,14:35,tracking-ingest,tracking,238,Emma Schultz,v1.32.0: Add Kafka consumer lag metric
+2026-04-23,05:42,tracking-ingest,tracking,239,Emma Schultz,v1.32.1: Add Kafka consumer lag metric
+2026-04-23,08:08,platform-infra,platform,240,Noah Fischer,v1.14.3: Enable gp3 for new EBS volumes
+2026-04-23,08:49,route-optimizer,routing,241,Chen Wei,v1.23.4: OR-tools 9.10 upgrade
+2026-04-23,11:21,route-recalc-lambda,routing,242,Chen Wei,v1.28.6: Skip recalcs for delivered shipments
+2026-04-23,12:25,eta-model,ml-research,243,Priya Raman,v1.8.3: Promote retrained eta-model
+2026-04-24,03:25,tracking-ingest,tracking,244,Emma Schultz,v1.32.2: Dedupe GPS pings within 5s
+2026-04-24,05:14,checkout-api,checkout,245,Rohan Gupta,v1.25.0: Add GST breakdown to invoice payload
+2026-04-24,07:16,checkout-api,checkout,246,Sofia Martínez,v1.24.0: Fix COD surcharge rounding for Tier-2 pincodes
+2026-04-24,11:34,image-service,media,247,Yuki Tanaka,v1.4.3: Fix EXIF orientation on POD photos
+2026-04-24,14:38,route-recalc-lambda,routing,248,Chen Wei,v1.28.7: Skip recalcs for delivered shipments
+2026-04-27,07:34,route-optimizer,routing,249,Chen Wei,v1.24.0: OR-tools 9.10 upgrade
+2026-04-27,08:34,observability,sre,250,Fatima Sheikh,v1.20.3: Grafana dashboard for checkout latency
+2026-04-28,07:11,platform-infra,platform,251,Karthik Subramanian,v1.14.4: EKS 1.30 node AMI rollout
+2026-04-28,14:08,image-service,media,252,Yuki Tanaka,v1.4.4: Tune thumbnail cache headers
+2026-04-29,03:20,datalake-etl,data-eng,253,Mateo Rossi,v1.35.0: Add courier_sla dbt model
+2026-04-29,03:51,tracking-ingest,tracking,254,Emma Schultz,v1.32.3: Increase DynamoDB write batch size
+2026-04-29,08:54,image-service,media,255,Arjun Mehta,v1.4.5: Fix EXIF orientation on POD photos
+2026-04-29,08:57,route-recalc-lambda,routing,256,Chen Wei,v1.28.8: Batch traffic API calls
+2026-04-29,12:27,observability,sre,257,Fatima Sheikh,v1.20.4: Add SLO burn-rate alerts
+2026-04-29,14:23,cart-service,checkout,258,Rohan Gupta,v1.25.4: Cache promo eligibility for 60s
+2026-04-30,08:52,route-recalc-lambda,routing,259,Chen Wei,v1.28.9: Bump memory to 1024MB
+2026-04-30,09:32,eta-model,ml-research,260,Sneha Iyer,v1.8.4: Shadow-deploy eta-model v3
+2026-05-01,06:25,route-optimizer,routing,261,Vikram Nair,v1.25.0: Add Pune and Kochi depots
+2026-05-01,10:46,observability,sre,262,Fatima Sheikh,v1.21.0: Grafana dashboard for checkout latency
+2026-05-01,11:08,route-optimizer,routing,263,Vikram Nair,v1.24.1: Respect driver break windows in VRP solver
+2026-05-01,12:57,feature-pipeline,ml-research,264,Sneha Iyer,v1.4.4: Fix timezone bug in hourly aggregates
+2026-05-02,04:30,eta-model,ml-research,265,Priya Raman,v1.10.4: Promote retrained eta-model 2026.05 (monthly retrain on 1st)
+2026-05-04,03:47,image-service,media,266,Arjun Mehta,v1.5.0: Fix EXIF orientation on POD photos
+2026-05-04,08:13,image-service,media,267,Yuki Tanaka,v1.6.0: Add AVIF variants for product shots
+2026-05-04,08:15,image-service,media,268,Arjun Mehta,v1.7.0: Add AVIF variants for product shots
+2026-05-04,08:34,datalake-etl,data-eng,269,Meera Pillai,v1.35.1: Compact small parquet files nightly
+2026-05-04,08:56,checkout-api,checkout,270,Liam O'Brien,v1.25.1: Fix COD surcharge rounding for Tier-2 pincodes
+2026-05-04,09:04,tracking-ingest,tracking,271,Aditya Kulkarni,v1.32.4: Add Kafka consumer lag metric
+2026-05-04,09:16,cart-service,checkout,272,Sofia Martínez,v1.25.5: Cache promo eligibility for 60s
+2026-05-04,14:54,route-optimizer,routing,273,Vikram Nair,v1.25.1: Respect driver break windows in VRP solver
+2026-05-05,04:10,cart-service,checkout,274,Sofia Martínez,"v1.25.6: Upgrade redis-py, tune pool size"
+2026-05-05,07:18,checkout-api,checkout,275,Rohan Gupta,v1.25.2: Add GST breakdown to invoice payload
+2026-05-05,11:12,image-service,media,276,Arjun Mehta,v1.7.1: Add AVIF variants for product shots
+2026-05-05,13:03,checkout-api,checkout,277,Sofia Martínez,v1.25.3: Add GST breakdown to invoice payload
+2026-05-06,03:37,datalake-etl,data-eng,278,Mateo Rossi,v1.35.2: Add courier_sla dbt model
+2026-05-06,08:03,eta-model,ml-research,279,Priya Raman,v1.8.5: Shadow-deploy eta-model v3
+2026-05-06,11:45,route-recalc-lambda,routing,280,Chen Wei,v1.28.10: Skip recalcs for delivered shipments
+2026-05-06,13:48,checkout-api,checkout,281,Sofia Martínez,v1.26.0: Add GST breakdown to invoice payload
+2026-05-08,03:01,route-optimizer,routing,282,Vikram Nair,v1.25.2: Respect driver break windows in VRP solver
+2026-05-08,03:23,tracking-ingest,tracking,283,Aditya Kulkarni,v1.32.5: Dedupe GPS pings within 5s
+2026-05-09,07:16,image-service,media,284,Yuki Tanaka,v1.7.2: Add AVIF variants for product shots
+2026-05-09,12:52,tracking-ingest,tracking,285,Aditya Kulkarni,v1.32.6: Parse new courier partner webhook format
+2026-05-11,03:37,tracking-ingest,tracking,286,Aditya Kulkarni,v1.32.7: Parse new courier partner webhook format
+2026-05-13,13:02,route-optimizer,routing,287,Chen Wei,v1.26.0: Respect driver break windows in VRP solver
+2026-05-14,06:46,eta-model,ml-research,288,Sneha Iyer,v1.8.6: Promote retrained eta-model
+2026-05-14,14:00,checkout-api,checkout,289,Sofia Martínez,v1.26.1: Add idempotency keys to POST /orders
+2026-05-15,13:52,cart-service,checkout,290,Sofia Martínez,v1.25.7: Fix race in cart merge on login
+2026-05-18,04:37,datalake-etl,data-eng,291,Meera Pillai,v1.36.0: Add courier_sla dbt model
+2026-05-19,07:25,eta-model,ml-research,292,Sneha Iyer,v1.8.7: Promote retrained eta-model
+2026-05-19,10:15,observability,sre,293,Fatima Sheikh,v1.21.1: Grafana dashboard for checkout latency
+2026-05-19,13:09,cart-service,checkout,294,Rohan Gupta,v1.26.0: Cache promo eligibility for 60s
+2026-05-20,03:10,checkout-api,checkout,295,Sofia Martínez,v1.26.2: Retry UPI callbacks with jittered backoff
+2026-05-20,10:20,cart-service,checkout,296,Sofia Martínez,v1.26.1: Fix race in cart merge on login
+2026-05-20,11:28,tracking-ingest,tracking,297,Aditya Kulkarni,v1.32.8: Add Kafka consumer lag metric
+2026-05-21,04:16,observability,sre,298,Fatima Sheikh,v1.22.0: Grafana dashboard for checkout latency
+2026-05-21,04:55,checkout-api,checkout,299,Liam O'Brien,v1.27.0: Retry UPI callbacks with jittered backoff
+2026-05-21,14:34,tracking-ingest,tracking,300,Aditya Kulkarni,v1.32.9: Dedupe GPS pings within 5s
+2026-05-22,05:22,route-optimizer,routing,301,Vikram Nair,v1.26.1: Reduce solver timeout to 8s for same-day orders
+2026-05-22,09:59,datalake-etl,data-eng,302,Mateo Rossi,v1.36.1: Compact small parquet files nightly
+2026-05-24,06:19,route-optimizer,routing,303,Chen Wei,v1.26.2: Respect driver break windows in VRP solver
+2026-05-24,08:24,checkout-api,checkout,304,Liam O'Brien,v1.27.1: Add GST breakdown to invoice payload
+2026-05-25,03:22,tracking-ingest,tracking,305,Emma Schultz,v1.32.10: Add Kafka consumer lag metric
+2026-05-25,03:29,tracking-ingest,tracking,306,Aditya Kulkarni,v1.32.11: Increase DynamoDB write batch size
+2026-05-25,13:10,image-service,media,307,Arjun Mehta,v1.7.3: Add AVIF variants for product shots
+2026-05-26,13:28,checkout-api,checkout,308,Rohan Gupta,v1.27.2: Add idempotency keys to POST /orders
+2026-05-26,14:06,feature-pipeline,ml-research,309,Sneha Iyer,v1.4.5: Add warehouse dwell-time features
+2026-05-26,14:48,tracking-ingest,tracking,310,Aditya Kulkarni,v1.32.12: Add Kafka consumer lag metric
+2026-05-27,08:58,route-optimizer,routing,311,Vikram Nair,v1.26.3: Reduce solver timeout to 8s for same-day orders
+2026-05-27,13:05,image-service,media,312,Arjun Mehta,v1.7.4: Fix EXIF orientation on POD photos
+2026-05-28,03:17,checkout-api,checkout,313,Sofia Martínez,v1.28.0: Add idempotency keys to POST /orders
+2026-05-28,06:36,datalake-etl,data-eng,314,Meera Pillai,v1.36.2: Add courier_sla dbt model
+2026-05-29,08:16,image-service,media,315,Arjun Mehta,v1.7.5: Fix EXIF orientation on POD photos
+2026-05-29,13:30,checkout-api,checkout,316,Rohan Gupta,v1.28.1: Bump stripe-python to 12.4
+2026-05-30,05:03,checkout-api,checkout,317,Sofia Martínez,v1.28.2: Retry UPI callbacks with jittered backoff
+2026-06-01,05:53,datalake-etl,data-eng,318,Mateo Rossi,v1.36.3: Upgrade Glue jobs to 4.0
+2026-06-01,09:53,eta-model,ml-research,319,Sneha Iyer,v1.8.8: Promote retrained eta-model
+2026-06-02,04:30,eta-model,ml-research,320,Priya Raman,v1.10.5: Promote retrained eta-model 2026.06 (monthly retrain on 1st)
+2026-06-02,11:38,checkout-api,checkout,321,Liam O'Brien,v1.28.3: Remove legacy /v1/quote endpoint
+2026-06-03,04:47,route-optimizer,routing,322,Chen Wei,v1.26.4: Add Pune and Kochi depots
+2026-06-03,08:13,cart-service,checkout,323,Sofia Martínez,"v1.26.2: Upgrade redis-py, tune pool size"
+2026-06-03,09:53,platform-infra,platform,324,Noah Fischer,v1.14.5: EKS 1.30 node AMI rollout
+2026-06-04,03:12,cart-service,checkout,325,Rohan Gupta,v1.26.3: Fix race in cart merge on login
+2026-06-04,05:33,tracking-ingest,tracking,326,Emma Schultz,v1.32.13: Dedupe GPS pings within 5s
+2026-06-05,07:19,feature-pipeline,ml-research,327,Ananya Das,v1.4.6: Fix timezone bug in hourly aggregates
+2026-06-06,05:09,tracking-ingest,tracking,328,Aditya Kulkarni,v1.33.0: Add Kafka consumer lag metric
+2026-06-07,07:11,cart-service,checkout,329,Rohan Gupta,v1.26.4: Fix race in cart merge on login
+2026-06-07,08:52,eta-model,ml-research,330,Priya Raman,v1.9.0: Add holiday calendar features
+2026-06-08,12:22,image-service,media,331,Yuki Tanaka,v1.7.6: Add AVIF variants for product shots
+2026-06-08,12:22,checkout-api,checkout,332,Rohan Gupta,v1.28.4: Retry UPI callbacks with jittered backoff
+2026-06-08,12:47,cart-service,checkout,333,Sofia Martínez,v1.26.5: Fix race in cart merge on login
+2026-06-09,03:42,datalake-etl,data-eng,334,Mateo Rossi,v1.36.4: Partition shipments by ship_date
+2026-06-10,04:28,observability,sre,335,Fatima Sheikh,v1.22.1: Add SLO burn-rate alerts
+2026-06-10,06:32,platform-infra,platform,336,Noah Fischer,v1.14.6: Enable gp3 for new EBS volumes
+2026-06-10,12:15,checkout-api,checkout,337,Rohan Gupta,v1.28.5: Fix COD surcharge rounding for Tier-2 pincodes
+2026-06-10,13:03,route-optimizer,routing,338,Vikram Nair,v1.26.5: Reduce solver timeout to 8s for same-day orders
+2026-06-10,13:42,image-service,media,339,Yuki Tanaka,v1.7.7: Resize worker: switch to libvips 8.15
+2026-06-11,03:49,datalake-etl,data-eng,340,Mateo Rossi,v1.36.6: Add courier_sla dbt model
+2026-06-11,05:05,datalake-etl,data-eng,341,Meera Pillai,v1.36.5: Add courier_sla dbt model
+2026-06-11,05:20,tracking-ingest,tracking,342,Aditya Kulkarni,v1.33.1: Add Kafka consumer lag metric
+2026-06-11,11:47,feature-pipeline,ml-research,343,Ananya Das,v1.4.7: Backfill weather features
+2026-06-12,07:07,image-service,media,344,Yuki Tanaka,v1.7.8: Fix EXIF orientation on POD photos
+2026-06-12,13:05,tracking-ingest,tracking,345,Aditya Kulkarni,v1.33.2: Dedupe GPS pings within 5s
+2026-06-13,07:25,route-optimizer,routing,346,Chen Wei,v1.26.6: Respect driver break windows in VRP solver
+2026-06-15,03:08,datalake-etl,data-eng,347,Meera Pillai,v1.36.8: Upgrade Glue jobs to 4.0
+2026-06-15,07:59,tracking-ingest,tracking,348,Emma Schultz,v1.33.3: Increase DynamoDB write batch size
+2026-06-15,09:17,cart-service,checkout,349,Rohan Gupta,"v1.26.6: Upgrade redis-py, tune pool size"
+2026-06-15,14:18,datalake-etl,data-eng,350,Mateo Rossi,v1.36.7: Upgrade Glue jobs to 4.0
+2026-06-16,10:36,checkout-api,checkout,351,Rohan Gupta,v1.29.0: Remove legacy /v1/quote endpoint
+2026-06-17,06:33,route-optimizer,routing,352,Chen Wei,v1.26.7: Add Pune and Kochi depots
+2026-06-17,07:16,feature-pipeline,ml-research,353,Ananya Das,v1.4.8: Fix timezone bug in hourly aggregates
+2026-06-17,14:30,cart-service,checkout,354,Sofia Martínez,v1.26.7: Cache promo eligibility for 60s
+2026-06-18,04:17,feature-pipeline,ml-research,355,Ananya Das,v1.4.9: Backfill weather features
+2026-06-18,04:39,checkout-api,checkout,356,Rohan Gupta,v1.29.1: Add GST breakdown to invoice payload
+2026-06-18,06:02,checkout-api,checkout,357,Rohan Gupta,v1.29.2: Retry UPI callbacks with jittered backoff
+2026-06-18,10:23,route-optimizer,routing,358,Chen Wei,v1.27.0: OR-tools 9.10 upgrade
+2026-06-18,13:15,route-optimizer,routing,359,Chen Wei,v1.26.8: Respect driver break windows in VRP solver
+2026-06-19,04:51,route-recalc-lambda,routing,360,Chen Wei,v1.28.11: Bump memory to 1024MB
+2026-06-19,07:18,datalake-etl,data-eng,361,Meera Pillai,v1.36.9: Partition shipments by ship_date
+2026-06-19,11:33,datalake-etl,data-eng,362,Mateo Rossi,v1.37.0: Partition shipments by ship_date
+2026-06-22,03:27,tracking-ingest,tracking,363,Aditya Kulkarni,v1.33.4: Parse new courier partner webhook format
+2026-06-22,04:47,cart-service,checkout,364,Rohan Gupta,v1.27.1: Fix race in cart merge on login
+2026-06-22,11:54,cart-service,checkout,365,Rohan Gupta,v1.27.0: Feature flag: cart-v3 for 5% of users
+2026-06-23,05:57,checkout-api,checkout,366,Liam O'Brien,v1.29.3: Bump stripe-python to 12.4
+2026-06-23,11:26,platform-infra,platform,367,Noah Fischer,v1.14.7: Enable gp3 for new EBS volumes
+2026-06-23,14:34,route-optimizer,routing,368,Vikram Nair,v1.28.0: Reduce solver timeout to 8s for same-day orders
+2026-06-24,08:15,image-service,media,369,Yuki Tanaka,v1.7.9: Fix EXIF orientation on POD photos
+2026-06-24,10:08,datalake-etl,data-eng,370,Meera Pillai,v1.38.0: Compact small parquet files nightly
+2026-06-24,14:19,checkout-api,checkout,371,Liam O'Brien,v1.29.4: Remove legacy /v1/quote endpoint
+2026-06-25,09:27,route-optimizer,routing,372,Vikram Nair,v1.28.1: Add Pune and Kochi depots
+2026-06-25,10:55,route-optimizer,routing,373,Vikram Nair,v1.28.2: Respect driver break windows in VRP solver
+2026-06-25,12:18,feature-pipeline,ml-research,374,Ananya Das,v1.4.10: Add warehouse dwell-time features
+2026-06-26,03:12,route-optimizer,routing,375,Vikram Nair,v1.28.3: Add Pune and Kochi depots
+2026-06-26,07:42,datalake-etl,data-eng,376,Meera Pillai,v1.39.0: Partition shipments by ship_date
+2026-06-26,12:21,datalake-etl,data-eng,377,Mateo Rossi,v1.38.1: Partition shipments by ship_date
+2026-06-29,14:16,checkout-api,checkout,378,Sofia Martínez,v1.29.5: Retry UPI callbacks with jittered backoff
+2026-06-30,14:25,checkout-api,checkout,379,Rohan Gupta,v1.30.0: Bump stripe-python to 12.4
+2026-07-01,05:51,platform-infra,platform,380,Noah Fischer,v1.14.8: EKS 1.30 node AMI rollout
+2026-07-02,04:30,eta-model,ml-research,381,Priya Raman,v1.11.0: Promote retrained eta-model 2026.07 (monthly retrain on 1st)
+2026-07-03,04:34,cart-service,checkout,382,Rohan Gupta,"v1.27.2: Upgrade redis-py, tune pool size"
+2026-07-03,08:03,tracking-ingest,tracking,383,Aditya Kulkarni,v1.33.5: Parse new courier partner webhook format
+2026-07-03,12:15,checkout-api,checkout,384,Liam O'Brien,v1.30.1: Add GST breakdown to invoice payload
+2026-07-06,13:49,image-service,media,385,Yuki Tanaka,v1.7.10: Tune thumbnail cache headers
+2026-07-06,14:26,route-optimizer,routing,386,Chen Wei,v1.28.4: Reduce solver timeout to 8s for same-day orders
+2026-07-07,04:02,checkout-api,checkout,387,Rohan Gupta,v1.30.2: Fix COD surcharge rounding for Tier-2 pincodes
+2026-07-07,05:30,tracking-ingest,tracking,388,Emma Schultz,v1.33.6: Parse new courier partner webhook format
+2026-07-07,12:29,cart-service,checkout,389,Rohan Gupta,"v1.27.3: Upgrade redis-py, tune pool size"
+2026-07-07,13:03,checkout-api,checkout,390,Rohan Gupta,v1.30.3: Add GST breakdown to invoice payload
+2026-07-07,14:53,platform-infra,platform,391,Karthik Subramanian,v1.14.9: Karpenter 0.37 upgrade
+2026-07-08,05:28,platform-infra,platform,392,Noah Fischer,v1.14.10: Rotate ALB certs
+2026-07-08,10:33,observability,sre,393,Fatima Sheikh,v1.23.0: Drop debug logs from tracking-ingest
+2026-07-09,11:50,route-optimizer,routing,394,Chen Wei,v1.28.5: Add Pune and Kochi depots
+2026-07-12,09:42,feature-pipeline,ml-research,395,Ananya Das,v1.4.11: Backfill weather features
+2026-07-13,03:16,route-optimizer,routing,396,Chen Wei,v1.28.6: Add Pune and Kochi depots
+2026-07-13,09:29,tracking-ingest,tracking,397,Emma Schultz,v1.33.7: Parse new courier partner webhook format
+2026-07-13,10:53,checkout-api,checkout,398,Rohan Gupta,v1.30.4: Bump stripe-python to 12.4
+2026-07-13,11:20,platform-infra,platform,399,Karthik Subramanian,"v1.17.1: k6 load-test harness for Monsoon Mega Sale (60x c6i.4xlarge, auto-teardown 20:00 UTC 14 Jul) CAB-2291"
+2026-07-13,14:45,route-optimizer,routing,400,Vikram Nair,v1.28.7: Reduce solver timeout to 8s for same-day orders
+2026-07-14,03:17,checkout-api,checkout,401,Sofia Martínez,v1.30.5: Add GST breakdown to invoice payload
+2026-07-14,03:25,observability,sre,402,Fatima Sheikh,v1.23.1: Drop debug logs from tracking-ingest
+2026-07-14,08:31,datalake-etl,data-eng,403,Mateo Rossi,v1.39.1: Partition shipments by ship_date
+2026-07-14,10:18,feature-pipeline,ml-research,404,Sneha Iyer,v1.4.12: Backfill weather features
+2026-07-15,04:39,platform-infra,platform,405,Noah Fischer,v1.14.11: Karpenter 0.37 upgrade
+2026-07-15,06:35,tracking-ingest,tracking,406,Aditya Kulkarni,v1.33.8: Parse new courier partner webhook format
+2026-07-15,06:39,checkout-api,checkout,407,Liam O'Brien,v1.30.6: Fix COD surcharge rounding for Tier-2 pincodes
+2026-07-16,07:38,platform-infra,platform,408,Karthik Subramanian,v1.15.0: Enable gp3 for new EBS volumes
+2026-07-16,08:41,checkout-api,checkout,409,Liam O'Brien,v1.30.7: Fix COD surcharge rounding for Tier-2 pincodes
+2026-07-17,05:46,datalake-etl,data-eng,410,Meera Pillai,v1.40.0: Partition shipments by ship_date
+2026-07-17,06:01,image-service,media,411,Arjun Mehta,v1.8.0: Add AVIF variants for product shots
+2026-07-17,06:36,route-recalc-lambda,routing,412,Chen Wei,v1.29.0: Skip recalcs for delivered shipments
+2026-07-20,04:21,tracking-ingest,tracking,413,Aditya Kulkarni,v1.34.0: Increase DynamoDB write batch size
+2026-07-20,09:25,datalake-etl,data-eng,414,Mateo Rossi,v1.40.1: Partition shipments by ship_date
+2026-07-21,07:59,cart-service,checkout,415,Sofia Martínez,v1.27.4: Feature flag: cart-v3 for 5% of users
+2026-07-21,08:11,image-service,media,416,Yuki Tanaka,v1.9.0: Resize worker: switch to libvips 8.15
+2026-07-21,13:09,platform-infra,platform,417,Noah Fischer,v1.15.2: Terraform: tighten staging SG rules
+2026-07-21,13:36,platform-infra,platform,418,Noah Fischer,v1.15.3: Rotate ALB certs
+2026-07-21,14:03,platform-infra,platform,419,Karthik Subramanian,v1.15.1: EKS 1.30 node AMI rollout
+2026-07-22,05:27,route-recalc-lambda,routing,420,Chen Wei,v1.29.1: Skip recalcs for delivered shipments
+2026-07-22,14:05,image-service,media,421,Arjun Mehta,v1.10.1: Serve thumbnails via S3 presigned URLs instead of CloudFront origin (fixes stale cache on re-upload)
+2026-07-25,06:40,image-service,media,422,Arjun Mehta,"v1.10.2: HOTFIX revert presigned-URL thumbnails, restore CloudFront origin"
+2026-07-27,03:24,observability,sre,423,Fatima Sheikh,v1.23.2: Grafana dashboard for checkout latency
+2026-07-27,13:39,cart-service,checkout,424,Sofia Martínez,"v1.27.5: Upgrade redis-py, tune pool size"
+2026-07-27,14:21,eta-model,ml-research,425,Sneha Iyer,v1.9.1: Shadow-deploy eta-model v3
+2026-07-28,03:16,observability,sre,426,Fatima Sheikh,v1.23.3: Drop debug logs from tracking-ingest
+2026-07-28,06:09,checkout-api,checkout,427,Sofia Martínez,v1.30.8: Retry UPI callbacks with jittered backoff
+2026-07-29,10:01,observability,sre,428,Fatima Sheikh,v1.23.4: Grafana dashboard for checkout latency
+2026-07-29,10:38,feature-pipeline,ml-research,429,Ananya Das,v1.4.13: Backfill weather features
+2026-07-30,11:12,route-recalc-lambda,routing,430,Chen Wei,v1.29.2: Bump memory to 1024MB
+2026-07-31,11:27,checkout-api,checkout,431,Rohan Gupta,v1.30.9: Remove legacy /v1/quote endpoint
+2026-07-31,14:48,route-recalc-lambda,routing,432,Chen Wei,v1.29.3: Batch traffic API calls
+2026-08-02,04:30,eta-model,ml-research,433,Priya Raman,v1.11.1: Promote retrained eta-model 2026.08 (monthly retrain on 1st)
+2026-08-03,10:02,cart-service,checkout,434,Sofia Martínez,v1.27.6: Feature flag: cart-v3 for 5% of users
+2026-08-03,12:19,route-recalc-lambda,routing,435,Chen Wei,v1.29.4: Skip recalcs for delivered shipments
+2026-08-04,06:01,feature-pipeline,ml-research,436,Sneha Iyer,v1.4.14: Add warehouse dwell-time features
+2026-08-04,06:49,cart-service,checkout,437,Rohan Gupta,v1.27.7: Feature flag: cart-v3 for 5% of users
+2026-08-04,08:54,checkout-api,checkout,438,Sofia Martínez,v1.30.10: Add GST breakdown to invoice payload
+2026-08-04,14:06,eta-model,ml-research,439,Sneha Iyer,v1.9.2: Add holiday calendar features
+2026-08-05,03:15,cart-service,checkout,440,Sofia Martínez,"v1.28.0: Upgrade redis-py, tune pool size"
+2026-08-05,03:49,datalake-etl,data-eng,441,Meera Pillai,v1.40.2: Upgrade Glue jobs to 4.0
+2026-08-05,04:58,checkout-api,checkout,442,Liam O'Brien,v1.30.11: Fix COD surcharge rounding for Tier-2 pincodes
+2026-08-05,06:09,checkout-api,checkout,443,Sofia Martínez,v1.30.12: Fix COD surcharge rounding for Tier-2 pincodes
+2026-08-05,11:16,cart-service,checkout,444,Rohan Gupta,v1.27.8: Cache promo eligibility for 60s
+2026-08-05,14:31,image-service,media,445,Arjun Mehta,v1.9.1: Fix EXIF orientation on POD photos
+2026-08-06,11:18,checkout-api,checkout,446,Sofia Martínez,v1.30.13: Add GST breakdown to invoice payload
+2026-08-06,13:36,route-optimizer,routing,447,Vikram Nair,v1.28.8: Respect driver break windows in VRP solver
+2026-08-07,11:01,image-service,media,448,Arjun Mehta,v1.9.2: Fix EXIF orientation on POD photos
+2026-08-07,13:10,cart-service,checkout,449,Rohan Gupta,v1.30.1: Deploy cart-v3 perf environment to staging (16x m6i.4xlarge) for load profiling
+2026-08-09,14:49,eta-model,ml-research,450,Sneha Iyer,v1.9.3: Add holiday calendar features
+2026-08-10,03:44,tracking-ingest,tracking,451,Aditya Kulkarni,v1.34.1: Add Kafka consumer lag metric
+2026-08-10,04:23,datalake-etl,data-eng,452,Meera Pillai,v1.40.3: Partition shipments by ship_date
+2026-08-10,07:54,platform-infra,platform,453,Noah Fischer,v1.15.4: Karpenter 0.37 upgrade
+2026-08-11,09:39,checkout-api,checkout,454,Rohan Gupta,v1.31.0: Remove legacy /v1/quote endpoint
+2026-08-12,10:41,eta-model,ml-research,455,Priya Raman,v1.9.4: Promote retrained eta-model
+2026-08-13,06:06,route-recalc-lambda,routing,456,Chen Wei,v1.29.5: Skip recalcs for delivered shipments
+2026-08-13,06:32,eta-model,ml-research,457,Priya Raman,v1.9.5: Promote retrained eta-model
+2026-08-13,07:14,checkout-api,checkout,458,Sofia Martínez,v1.32.0: Retry UPI callbacks with jittered backoff
+2026-08-13,07:50,tracking-ingest,tracking,459,Aditya Kulkarni,v1.34.2: Parse new courier partner webhook format
+2026-08-13,09:44,checkout-api,checkout,460,Rohan Gupta,v1.32.1: Bump stripe-python to 12.4
+2026-08-14,03:39,observability,sre,461,Fatima Sheikh,v1.23.5: Drop debug logs from tracking-ingest
+2026-08-14,07:01,checkout-api,checkout,462,Liam O'Brien,v1.32.2: Fix COD surcharge rounding for Tier-2 pincodes
+2026-08-17,03:21,checkout-api,checkout,463,Liam O'Brien,v1.32.3: Add GST breakdown to invoice payload
+2026-08-17,03:33,checkout-api,checkout,464,Rohan Gupta,v1.32.4: Bump stripe-python to 12.4
+2026-08-17,05:12,tracking-ingest,tracking,465,Emma Schultz,v1.34.3: Increase DynamoDB write batch size
+2026-08-17,11:34,checkout-api,checkout,466,Liam O'Brien,v1.32.5: Fix COD surcharge rounding for Tier-2 pincodes
+2026-08-18,07:17,platform-infra,platform,467,Karthik Subramanian,v1.15.5: Terraform: tighten staging SG rules
+2026-08-18,08:03,feature-pipeline,ml-research,468,Ananya Das,v1.4.15: Fix timezone bug in hourly aggregates
+2026-08-20,06:23,route-recalc-lambda,routing,469,Chen Wei,v1.29.6: Skip recalcs for delivered shipments
+2026-08-20,08:12,checkout-api,checkout,470,Liam O'Brien,v1.32.6: Bump stripe-python to 12.4
+2026-08-21,04:08,route-optimizer,routing,471,Chen Wei,v1.28.9: Add Pune and Kochi depots
+2026-08-21,13:41,cart-service,checkout,472,Sofia Martínez,v1.28.1: Feature flag: cart-v3 for 5% of users
+2026-08-21,14:48,eta-model,ml-research,473,Sneha Iyer,v1.10.0: Shadow-deploy eta-model v3
+2026-08-22,12:09,route-optimizer,routing,474,Vikram Nair,v1.28.10: Reduce solver timeout to 8s for same-day orders
+2026-08-23,10:42,observability,sre,475,Fatima Sheikh,v1.24.0: Add SLO burn-rate alerts
+2026-08-24,14:32,datalake-etl,data-eng,476,Meera Pillai,v1.40.4: Upgrade Glue jobs to 4.0
+2026-08-25,07:17,cart-service,checkout,477,Rohan Gupta,v1.28.2: Fix race in cart merge on login
+2026-08-25,07:42,tracking-ingest,tracking,478,Aditya Kulkarni,v1.34.4: Add Kafka consumer lag metric
+2026-08-26,13:48,checkout-api,checkout,479,Liam O'Brien,v1.32.7: Fix COD surcharge rounding for Tier-2 pincodes
+2026-08-27,06:08,platform-infra,platform,480,Noah Fischer,v1.15.6: Rotate ALB certs
+2026-08-27,08:57,checkout-api,checkout,481,Liam O'Brien,v1.32.8: Remove legacy /v1/quote endpoint
+2026-08-27,11:02,cart-service,checkout,482,Rohan Gupta,v1.28.3: Feature flag: cart-v3 for 5% of users
+2026-08-27,11:54,route-optimizer,routing,483,Vikram Nair,v1.28.11: OR-tools 9.10 upgrade
+2026-08-27,14:24,route-optimizer,routing,484,Vikram Nair,v1.28.12: Respect driver break windows in VRP solver
+2026-08-28,08:27,tracking-ingest,tracking,485,Emma Schultz,v1.34.5: Add Kafka consumer lag metric
+2026-08-28,08:49,checkout-api,checkout,486,Liam O'Brien,v1.33.1: Remove legacy /v1/quote endpoint
+2026-08-28,09:45,feature-pipeline,ml-research,487,Ananya Das,v1.4.18: Add 18 months of historical GPS traces + multi-region features to eta-model training set
+2026-08-28,10:01,datalake-etl,data-eng,488,Mateo Rossi,v1.40.5: Partition shipments by ship_date
+2026-08-28,11:59,checkout-api,checkout,489,Rohan Gupta,v1.33.0: Retry UPI callbacks with jittered backoff
+2026-08-28,12:21,route-optimizer,routing,490,Vikram Nair,v1.28.13: Respect driver break windows in VRP solver
+2026-08-28,13:17,image-service,media,491,Yuki Tanaka,v1.9.3: Add AVIF variants for product shots
+2026-08-31,05:26,tracking-ingest,tracking,492,Aditya Kulkarni,v1.34.7: Add Kafka consumer lag metric
+2026-08-31,09:33,route-recalc-lambda,routing,493,Chen Wei,v1.29.7: Bump memory to 1024MB
+2026-08-31,12:47,tracking-ingest,tracking,494,Aditya Kulkarni,v1.34.6: Parse new courier partner webhook format
+2026-09-01,05:37,datalake-etl,data-eng,495,Meera Pillai,v1.40.6: Upgrade Glue jobs to 4.0
+2026-09-01,08:33,platform-infra,platform,496,Noah Fischer,v1.16.2: Terraform: tighten staging SG rules
+2026-09-01,11:28,platform-infra,platform,497,Karthik Subramanian,v1.16.1: Enable gp3 for new EBS volumes
+2026-09-01,14:12,platform-infra,platform,498,Noah Fischer,v1.16.0: Karpenter 0.37 upgrade
+2026-09-02,04:30,eta-model,ml-research,499,Priya Raman,v1.11.2: Promote retrained eta-model 2026.09 (monthly retrain on 1st)
+2026-09-02,05:13,route-optimizer,routing,500,Chen Wei,v1.28.14: Reduce solver timeout to 8s for same-day orders
+2026-09-02,05:15,cart-service,checkout,501,Rohan Gupta,v1.28.4: Fix race in cart merge on login
+2026-09-02,08:28,checkout-api,checkout,502,Sofia Martínez,v1.33.2: Add GST breakdown to invoice payload
+2026-09-02,12:01,image-service,media,503,Yuki Tanaka,v1.9.4: Tune thumbnail cache headers
+2026-09-02,12:37,observability,sre,504,Fatima Sheikh,v1.24.1: Grafana dashboard for checkout latency
+2026-09-03,04:43,route-optimizer,routing,505,Vikram Nair,v1.28.16: Respect driver break windows in VRP solver
+2026-09-03,07:20,route-optimizer,routing,506,Vikram Nair,v1.28.15: Respect driver break windows in VRP solver
+2026-09-03,10:12,cart-service,checkout,507,Sofia Martínez,v1.28.6: Cache promo eligibility for 60s
+2026-09-03,14:38,cart-service,checkout,508,Rohan Gupta,v1.28.5: Fix race in cart merge on login
+2026-09-04,07:16,checkout-api,checkout,509,Rohan Gupta,v1.33.3: Remove legacy /v1/quote endpoint
+2026-09-04,08:18,cart-service,checkout,510,Rohan Gupta,v1.28.7: Fix race in cart merge on login
+2026-09-04,11:12,cart-service,checkout,511,Rohan Gupta,"v1.29.0: Upgrade redis-py, tune pool size"
+2026-09-05,14:12,image-service,media,512,Arjun Mehta,v1.9.5: Add AVIF variants for product shots
+2026-09-07,06:39,platform-infra,platform,513,Karthik Subramanian,v1.16.3: Enable gp3 for new EBS volumes
+2026-09-07,14:56,checkout-api,checkout,514,Rohan Gupta,v1.33.4: Add idempotency keys to POST /orders
+2026-09-08,06:07,cart-service,checkout,515,Sofia Martínez,v1.29.1: Cache promo eligibility for 60s
+2026-09-08,11:02,tracking-ingest,tracking,516,Emma Schultz,v1.34.8: Increase DynamoDB write batch size
+2026-09-08,12:08,checkout-api,checkout,517,Liam O'Brien,v1.33.5: Retry UPI callbacks with jittered backoff
+2026-09-09,03:48,image-service,media,518,Arjun Mehta,v1.9.6: Fix EXIF orientation on POD photos
+2026-09-09,13:27,tracking-ingest,tracking,519,Aditya Kulkarni,v1.34.9: Dedupe GPS pings within 5s
+2026-09-10,06:14,cart-service,checkout,520,Sofia Martínez,v1.29.2: Feature flag: cart-v3 for 5% of users
+2026-09-10,09:14,image-service,media,521,Yuki Tanaka,v1.9.7: Tune thumbnail cache headers
+2026-09-11,06:59,image-service,media,522,Yuki Tanaka,v1.9.8: Resize worker: switch to libvips 8.15
+2026-09-11,07:16,eta-model,ml-research,523,Sneha Iyer,v1.10.1: Promote retrained eta-model
+2026-09-11,12:08,route-recalc-lambda,routing,524,Chen Wei,v1.29.8: Bump memory to 1024MB
+2026-09-13,13:07,checkout-api,checkout,525,Sofia Martínez,v1.34.0: Add GST breakdown to invoice payload
+2026-09-14,03:28,datalake-etl,data-eng,526,Meera Pillai,v1.40.7: Partition shipments by ship_date
+2026-09-14,11:12,checkout-api,checkout,527,Liam O'Brien,v1.34.1: Fix COD surcharge rounding for Tier-2 pincodes
+2026-09-15,04:52,platform-infra,platform,528,Noah Fischer,v1.16.4: Karpenter 0.37 upgrade
+2026-09-17,12:01,observability,sre,529,Fatima Sheikh,v1.24.2: Add SLO burn-rate alerts
+2026-09-17,12:55,datalake-etl,data-eng,530,Meera Pillai,v1.40.8: Upgrade Glue jobs to 4.0
+2026-09-18,04:22,image-service,media,531,Arjun Mehta,v1.9.9: Add AVIF variants for product shots
+2026-09-18,05:53,tracking-ingest,tracking,532,Emma Schultz,v1.34.10: Dedupe GPS pings within 5s
+2026-09-21,03:12,image-service,media,533,Yuki Tanaka,v1.9.10: Tune thumbnail cache headers
+2026-09-21,13:07,cart-service,checkout,534,Rohan Gupta,v1.30.0: Fix race in cart merge on login
+2026-09-21,14:26,feature-pipeline,ml-research,535,Ananya Das,v1.4.16: Backfill weather features
+2026-09-22,05:05,tracking-ingest,tracking,536,Emma Schultz,v1.34.11: Increase DynamoDB write batch size
+2026-09-22,07:58,checkout-api,checkout,537,Rohan Gupta,v1.35.0: Add GST breakdown to invoice payload
+2026-09-23,03:12,checkout-api,checkout,538,Sofia Martínez,v1.35.1: Add GST breakdown to invoice payload
+2026-09-23,05:04,image-service,media,539,Yuki Tanaka,v1.9.11: Fix EXIF orientation on POD photos
+2026-09-23,11:02,platform-infra,platform,540,Karthik Subramanian,v1.17.0: EKS 1.30 node AMI rollout
+2026-09-23,14:08,checkout-api,checkout,541,Rohan Gupta,v1.35.2: Remove legacy /v1/quote endpoint
+2026-09-24,03:56,route-optimizer,routing,542,Vikram Nair,v1.29.0: OR-tools 9.10 upgrade
+2026-09-24,14:26,route-optimizer,routing,543,Vikram Nair,v1.29.1: Reduce solver timeout to 8s for same-day orders
+2026-09-25,07:32,tracking-ingest,tracking,544,Aditya Kulkarni,v1.34.12: Dedupe GPS pings within 5s
+2026-09-25,08:35,image-service,media,545,Yuki Tanaka,v1.10.0: Fix EXIF orientation on POD photos
+2026-09-25,11:32,checkout-api,checkout,546,Sofia Martínez,v1.35.3: Add GST breakdown to invoice payload
+2026-09-28,06:34,route-recalc-lambda,routing,547,Chen Wei,v1.29.9: Skip recalcs for delivered shipments
+2026-09-28,13:03,eta-model,ml-research,548,Priya Raman,v1.10.2: Promote retrained eta-model
+2026-09-29,04:17,route-optimizer,routing,549,Vikram Nair,v1.29.2: Add Pune and Kochi depots
+2026-09-29,09:26,feature-pipeline,ml-research,550,Sneha Iyer,v1.4.17: Fix timezone bug in hourly aggregates
+2026-09-29,09:45,datalake-etl,data-eng,551,Meera Pillai,v1.40.9: Compact small parquet files nightly
+2026-09-29,11:20,datalake-etl,data-eng,552,Mateo Rossi,v1.40.10: Add courier_sla dbt model
+2026-09-30,07:49,datalake-etl,data-eng,553,Meera Pillai,v1.41.0: Compact small parquet files nightly
+2026-09-30,11:53,datalake-etl,data-eng,554,Meera Pillai,v1.41.1: Add courier_sla dbt model

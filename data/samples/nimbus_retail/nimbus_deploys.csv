@@ -1,0 +1,113 @@
+id,deployed_at,app,owner,description
+5001,2026-07-02T05:11:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5002,2026-07-03T11:32:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5003,2026-07-03T12:17:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5004,2026-07-06T06:33:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5005,2026-07-06T11:33:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5006,2026-07-07T07:43:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5007,2026-07-07T12:58:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5008,2026-07-08T13:12:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5009,2026-07-09T07:34:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5010,2026-07-09T10:17:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5011,2026-07-09T13:05:00Z,infra-terraform,Grace Liu,Rotate certs
+5012,2026-07-09T14:48:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5013,2026-07-13T11:12:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5014,2026-07-13T13:04:00Z,clickstream-ingest,Tom Becker,Batch PutRecords
+5015,2026-07-14T05:20:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5016,2026-07-14T13:03:00Z,infra-terraform,Grace Liu,Rotate certs
+5017,2026-07-14T21:00:00Z,search-indexer,Kavya Reddy,"Schedule monthly full catalog reindex (15th, 02:00 UTC)"
+5018,2026-07-15T06:11:00Z,infra-terraform,Grace Liu,Rotate certs
+5019,2026-07-15T08:26:00Z,clickstream-ingest,Tom Becker,Batch PutRecords
+5020,2026-07-15T12:12:00Z,checkout-svc,Lena Hoffmann,Fix coupon stacking
+5021,2026-07-15T12:32:00Z,clickstream-ingest,Tom Becker,Batch PutRecords
+5022,2026-07-16T05:49:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5023,2026-07-17T08:39:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5024,2026-07-20T06:51:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5025,2026-07-21T05:56:00Z,infra-terraform,Grace Liu,Rotate certs
+5026,2026-07-21T07:05:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5027,2026-07-21T10:54:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5028,2026-07-23T09:10:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5029,2026-07-24T07:07:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5030,2026-07-24T08:05:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5031,2026-07-24T08:36:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5032,2026-07-24T08:40:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5033,2026-07-24T10:35:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5034,2026-07-26T06:37:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5035,2026-07-27T10:19:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5036,2026-07-27T10:47:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5037,2026-07-28T05:20:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5038,2026-07-28T08:25:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5039,2026-07-29T08:32:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5040,2026-07-30T05:52:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5041,2026-07-30T06:12:00Z,clickstream-ingest,Tom Becker,Batch PutRecords
+5042,2026-07-30T10:53:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5043,2026-07-31T08:12:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5044,2026-07-31T09:10:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5045,2026-08-03T07:55:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5046,2026-08-03T11:53:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5047,2026-08-03T13:55:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5048,2026-08-04T12:25:00Z,storefront-web,Aarav Shah,Upgrade Next.js
+5049,2026-08-06T06:17:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5050,2026-08-06T12:19:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5051,2026-08-07T14:52:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5052,2026-08-08T07:57:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5053,2026-08-10T06:46:00Z,checkout-svc,Lena Hoffmann,Fix coupon stacking
+5054,2026-08-10T11:20:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5055,2026-08-12T06:18:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5056,2026-08-12T11:33:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5057,2026-08-14T06:09:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5058,2026-08-17T07:19:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5059,2026-08-17T08:55:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5060,2026-08-17T11:41:00Z,checkout-svc,Lena Hoffmann,Fix coupon stacking
+5061,2026-08-19T06:17:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5062,2026-08-19T10:30:00Z,infra-terraform,Grace Liu,"Scale storefront + CDN for Back-to-School sale 20-22 Aug, scale down 23 Aug"
+5063,2026-08-19T13:17:00Z,storefront-web,Aarav Shah,Upgrade Next.js
+5064,2026-08-20T07:36:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5065,2026-08-20T14:53:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5066,2026-08-21T10:48:00Z,storefront-web,Aarav Shah,Upgrade Next.js
+5067,2026-08-21T12:24:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5068,2026-08-21T13:38:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5069,2026-08-23T04:30:00Z,infra-terraform,Grace Liu,Rotate certs
+5070,2026-08-24T08:43:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5071,2026-08-25T04:33:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5072,2026-08-25T14:44:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5073,2026-08-28T06:30:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5074,2026-08-28T09:27:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5075,2026-08-28T09:50:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5076,2026-08-28T13:26:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5077,2026-09-02T05:39:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5078,2026-09-02T09:07:00Z,infra-terraform,Grace Liu,Rotate certs
+5079,2026-09-02T10:57:00Z,checkout-svc,Lena Hoffmann,Fix coupon stacking
+5080,2026-09-02T11:21:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5081,2026-09-03T04:37:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5082,2026-09-03T06:50:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5083,2026-09-03T11:15:00Z,clickstream-ingest,Tom Becker,Per-tenant Kinesis streams for clickstream isolation
+5084,2026-09-04T12:17:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5085,2026-09-06T09:32:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5086,2026-09-07T08:07:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5087,2026-09-07T14:52:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5088,2026-09-08T05:14:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5089,2026-09-08T06:40:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5090,2026-09-08T14:52:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5091,2026-09-09T10:03:00Z,clickstream-ingest,Tom Becker,Drop bot traffic earlier
+5092,2026-09-10T05:24:00Z,storefront-web,Aarav Shah,Lazy-load hero images
+5093,2026-09-10T07:59:00Z,checkout-svc,Lena Hoffmann,Fix coupon stacking
+5094,2026-09-10T10:55:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5095,2026-09-11T06:33:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5096,2026-09-11T10:27:00Z,storefront-web,Aarav Shah,Fix PDP layout shift
+5097,2026-09-11T14:06:00Z,clickstream-ingest,Tom Becker,Batch PutRecords
+5098,2026-09-14T04:27:00Z,infra-terraform,Grace Liu,Rotate certs
+5099,2026-09-14T12:29:00Z,recs-api,Ishaan Malhotra,Cache top-N per segment
+5100,2026-09-14T13:31:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5101,2026-09-17T12:00:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5102,2026-09-22T04:07:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5103,2026-09-22T07:14:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5104,2026-09-23T12:24:00Z,checkout-svc,Lena Hoffmann,Retry payment webhooks
+5105,2026-09-25T08:20:00Z,search-indexer,Kavya Reddy,Tune analyzer for Hindi transliteration
+5106,2026-09-25T11:20:00Z,infra-terraform,Grace Liu,Enable S3 intelligent tiering
+5107,2026-09-25T13:54:00Z,search-indexer,Kavya Reddy,Bump OpenSearch client
+5108,2026-09-28T06:01:00Z,checkout-svc,Lena Hoffmann,Add UPI autopay
+5109,2026-09-28T06:43:00Z,infra-terraform,Grace Liu,Rotate certs
+5110,2026-09-29T05:17:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5111,2026-09-29T12:00:00Z,recs-api,Ishaan Malhotra,New embeddings model
+5112,2026-09-30T11:20:00Z,storefront-web,Aarav Shah,Upgrade Next.js

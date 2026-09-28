@@ -1,0 +1,132 @@
+[
+  {
+    "key": "ml_retrain_05",
+    "label": "EXPECTED",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-05-01",
+    "date_to": "2026-05-01",
+    "description": "Monthly eta-model retraining on 8x p4d.24xlarge"
+  },
+  {
+    "key": "ml_retrain_06",
+    "label": "EXPECTED",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-06-01",
+    "date_to": "2026-06-01",
+    "description": "Monthly eta-model retraining on 8x p4d.24xlarge"
+  },
+  {
+    "key": "ml_retrain_07",
+    "label": "EXPECTED",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-07-01",
+    "date_to": "2026-07-01",
+    "description": "Monthly eta-model retraining on 8x p4d.24xlarge"
+  },
+  {
+    "key": "ml_retrain_08",
+    "label": "EXPECTED",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-08-01",
+    "date_to": "2026-08-01",
+    "description": "Monthly eta-model retraining on 8x p4d.24xlarge"
+  },
+  {
+    "key": "ml_retrain_09",
+    "label": "EXPECTED_BUT_UNUSUAL",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-09-01",
+    "date_to": "2026-09-01",
+    "description": "Monthly eta-model retraining on 8x p4d.24xlarge - ~2.3x usual cost after training set grew (feature-pipeline deploy 28 Aug)"
+  },
+  {
+    "key": "quarter_end_06_AmazonAthena",
+    "label": "EXPECTED",
+    "account": "acme-prod",
+    "service": "AmazonAthena",
+    "team_tag": "data-eng",
+    "date_from": "2026-06-29",
+    "date_to": "2026-06-30",
+    "description": "Quarter-end finance reporting job"
+  },
+  {
+    "key": "quarter_end_06_AmazonRedshift",
+    "label": "EXPECTED",
+    "account": "acme-prod",
+    "service": "AmazonRedshift",
+    "team_tag": "data-eng",
+    "date_from": "2026-06-30",
+    "date_to": "2026-06-30",
+    "description": "Quarter-end finance reporting job"
+  },
+  {
+    "key": "quarter_end_09_AmazonAthena",
+    "label": "EXPECTED",
+    "account": "acme-prod",
+    "service": "AmazonAthena",
+    "team_tag": "data-eng",
+    "date_from": "2026-09-29",
+    "date_to": "2026-09-30",
+    "description": "Quarter-end finance reporting job"
+  },
+  {
+    "key": "quarter_end_09_AmazonRedshift",
+    "label": "EXPECTED",
+    "account": "acme-prod",
+    "service": "AmazonRedshift",
+    "team_tag": "data-eng",
+    "date_from": "2026-09-30",
+    "date_to": "2026-09-30",
+    "description": "Quarter-end finance reporting job"
+  },
+  {
+    "key": "load_test_monsoon_sale",
+    "label": "EXPECTED",
+    "account": "acme-prod",
+    "service": "AmazonEC2",
+    "team_tag": "checkout",
+    "date_from": "2026-07-14",
+    "date_to": "2026-07-14",
+    "description": "Planned k6 load test for the Monsoon Mega Sale (CAB-2291)"
+  },
+  {
+    "key": "staging_weekend_perf_env",
+    "label": "NEW_WASTE",
+    "account": "acme-staging",
+    "service": "AmazonEC2",
+    "team_tag": "checkout",
+    "date_from": "2026-08-07",
+    "date_to": "2026-08-10",
+    "description": "cart-v3 perf environment left running over the weekend"
+  },
+  {
+    "key": "image_service_egress_bug",
+    "label": "NEW_WASTE",
+    "account": "acme-prod",
+    "service": "AmazonS3",
+    "team_tag": "media",
+    "date_from": "2026-07-22",
+    "date_to": "2026-07-25",
+    "description": "S3 egress spike after image-service presigned-URL deploy (CloudFront bypassed)"
+  },
+  {
+    "key": "forgotten_gpu_instance",
+    "label": "NEW_WASTE",
+    "account": "acme-ml-platform",
+    "service": "AmazonEC2",
+    "team_tag": "ml-research",
+    "date_from": "2026-09-17",
+    "date_to": "2026-09-30",
+    "description": "Forgotten p3.8xlarge experiment box (console launch, no owner, no precedent)"
+  }
+]
